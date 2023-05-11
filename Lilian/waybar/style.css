@@ -1,0 +1,163 @@
+/* Waybar itself */
+
+*{
+    border: none;
+    border-radius: 0;
+    font-family: "Roboto Mono Nerd Font";
+    font-size: 14;
+}
+
+window#waybar{
+
+    background-color: rgba(0,0,0,0);
+    color: rgba(221,202,212,1);
+        
+}
+
+
+.modules-left {
+
+    background-color: rgba(51, 45, 67, 1);
+    margin-left: 0px;
+    margin-right: 5px;
+    padding: 5px 2px 5px 2px;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+
+}
+
+.modules-center {
+
+    background-color: rgba(51, 45, 67, 1);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px 2px 5px 2px;
+    border-radius: 2em;
+
+}
+
+.modules-right {
+
+    background-color: rgba(51, 45, 67, 1);
+    margin-right: 0px;
+    margin-left: 5px;
+    padding: 5px 2px 5px 2px;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+
+}
+
+
+#window {
+
+    margin: .5em .3em .5em .3em;
+    padding: .2em;
+
+}
+
+/* Left Modules */
+/* User Module */
+#user {
+    
+    padding-left: .5em;
+    padding-right: .5em;
+
+}
+
+/* Workspaces module */
+#workspaces{
+
+    padding-left: .5em;
+    padding-right: .5em;
+
+}
+
+#workspaces button {
+
+    padding-left: .3em;
+    padding-right: .3em;
+    color: rgba(221, 202, 212, .6);
+
+}
+
+#workspaces button.active {
+
+    padding-left: .3em;
+    padding-right: .3em;
+    color: rgba(150, 96, 124, 1);
+
+}
+
+#workspaces button:hover {
+    background: none;
+    border: none;
+}
+
+/* Center Modules */
+/* Mpris media control */
+/* NOTES #mpris.status or #mpris.player */
+#mpris {
+
+    padding-left: .5em;
+    padding-right: .5em;
+
+}
+
+/* pulseaudo module */
+#pulseaudio {
+
+    padding-left: .5em;
+    padding-right: .5em;
+
+}
+
+/* Right Modules */
+/* Battery */
+/* NOTES #battery.status #battery.state #battery.status.state */
+#battery {
+
+    padding-left: .5em;
+    padding-right: .5em;
+
+}
+
+#battery.discharging.second {
+
+    color: rgba(150, 96, 124, 1);
+
+}
+
+#battery.discharging.third {
+
+    color: rgba(150, 96, 124, 1);
+
+}
+
+#battery.discharging.critical {
+
+    color: rgba(150, 96, 124, 1);
+
+}
+
+/* Network */
+/* NOTES #network.state #network.type */
+#network {
+
+    padding-left: .5em;
+    padding-right: .5em;
+
+}
+
+#network.disconnected {
+
+    color: rgba(150, 96, 124, 1);
+
+}
+ 
+/* clock */
+#clock {
+
+    padding-left: .5em;
+    padding-right: .5em;
+
+}

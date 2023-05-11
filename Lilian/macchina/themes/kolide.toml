@@ -1,0 +1,31 @@
+# Kolide
+
+spacing         = 3
+padding         = 1
+hide_ascii      = false
+separator       = ""
+key_color       = "#DDCAD4"
+separator_color = "#9E7D9A"
+
+[palette]
+type = "Light"
+visible = true
+
+[bar]
+symbol_open     = ''
+symbol_close    = ''
+hide_delimiters = false
+visible         = false
+
+[box]
+border          = "double"
+visible         = true
+title           = " Macchina [Kolide] "
+
+[custom_ascii]
+color           = "#96607C"
+path            = "/home/Eunomia/.config/macchina/themes/kolide_ascii"
+
+[box.inner_margin]
+x               = 2
+y               = 2
